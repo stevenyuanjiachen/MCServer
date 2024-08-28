@@ -1,0 +1,16 @@
+﻿{
+  "lang": "zh-CN",
+  "notifyIcon": false,
+  "sidemenuExpanded": true,
+  "skin": 1,
+  "darkTheme": "False",
+  "semitransparentTitle": false,
+  "autoGetServerInfo": true,
+  "autoGetPlayerInfo": true,
+  "autoOpenServer": "False",
+  "autoOpenFrpc": "False",
+  "notice": "240823",
+  "frpcversion": "0581",
+  "selectedServer": "0",
+  "autoUpdateApp": true
+}

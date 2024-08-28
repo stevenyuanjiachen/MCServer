@@ -1,0 +1,888 @@
+[288月2024 12:38:11.469] [main/INFO] [Arclight/]: 
+
+       ___           ___     __   /\
+      /   | ________/ (_)__ / /  / /
+     / /| |/ __/ __/ / / _ / _ \/__/
+    / ___ / / / /_/ / / / / // / /
+   /_/  |/_/  \__/_/_/\_ /_//_/ /
+                     /__/     \/
+
+    运行版本 顿顽 / arclight-1.20.1-1.0.5-1a8925b
+    构建日期 2024-02-28 14:51:40
+
+[288月2024 12:38:11.513] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, arclightserver, --fml.forgeVersion, 47.2.20, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[288月2024 12:38:11.514] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[288月2024 12:38:11.697] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is arclightserver
+[288月2024 12:38:11.820] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/D:/MC/MSL/MSL/Server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2399!/ Service=ModLauncher Env=SERVER
+[288月2024 12:38:12.218] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\MC\MSL\MSL\Server\libraries\net\minecraftforge\fmlcore\1.20.1-47.2.20\fmlcore-1.20.1-47.2.20.jar is missing mods.toml file
+[288月2024 12:38:12.220] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\MC\MSL\MSL\Server\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.2.20\javafmllanguage-1.20.1-47.2.20.jar is missing mods.toml file
+[288月2024 12:38:12.223] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\MC\MSL\MSL\Server\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.2.20\lowcodelanguage-1.20.1-47.2.20.jar is missing mods.toml file
+[288月2024 12:38:12.224] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\MC\MSL\MSL\Server\libraries\net\minecraftforge\mclanguage\1.20.1-47.2.20\mclanguage-1.20.1-47.2.20.jar is missing mods.toml file
+[288月2024 12:38:12.380] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[288月2024 12:38:13.886] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[288月2024 12:38:14.001] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [io.izzel.arclight.common.mod.ArclightConnector]
+[288月2024 12:38:14.050] [main/INFO] [Arclight/]: 核心 Mixin 配置已加载
+[288月2024 12:38:14.051] [main/INFO] [Arclight/]: 服务端优化 Mixin 配置已加载
+[288月2024 12:38:14.070] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'arclightserver' with arguments [nogui]
+[288月2024 12:38:21.826] [modloading-worker-0/INFO] [Arclight/]: Arclight Mod 已加载
+[288月2024 12:38:21.859] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.20, for MC 1.20.1 with MCP 20230612.114412
+[288月2024 12:38:21.859] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.20 Initialized
+[288月2024 12:38:21.897] [modloading-worker-0/INFO] [Arclight/]: Arclight 事件系统已注册
+[288月2024 12:38:22.643] [modloading-worker-0/INFO] [moze_intel.projecte.PECore/]: Found and loaded EMC mapper: CraftingMapper, with priority 0
+[288月2024 12:38:22.652] [modloading-worker-0/INFO] [moze_intel.projecte.PECore/]: Found and loaded EMC mapper: CustomConversionMapper, with priority 0
+[288月2024 12:38:22.653] [modloading-worker-0/INFO] [moze_intel.projecte.PECore/]: Found and loaded EMC mapper: WeatheredCopperMapper, with priority 0
+[288月2024 12:38:22.655] [modloading-worker-0/INFO] [moze_intel.projecte.PECore/]: Found and loaded EMC mapper: TippedArrowMapper, with priority 0
+[288月2024 12:38:22.656] [modloading-worker-0/INFO] [moze_intel.projecte.PECore/]: Found and loaded EMC mapper: RawOresBlacklistMapper, with priority 0
+[288月2024 12:38:22.657] [modloading-worker-0/INFO] [moze_intel.projecte.PECore/]: Found and loaded EMC mapper: OresBlacklistMapper, with priority 0
+[288月2024 12:38:22.658] [modloading-worker-0/INFO] [moze_intel.projecte.PECore/]: Found and loaded EMC mapper: CustomEMCMapper, with priority 0
+[288月2024 12:38:22.659] [modloading-worker-0/INFO] [moze_intel.projecte.PECore/]: Found and loaded EMC mapper: BrewingMapper, with priority 0
+[288月2024 12:38:22.662] [modloading-worker-0/INFO] [moze_intel.projecte.PECore/]: Found and loaded EMC mapper: APICustomEMCMapper, with priority 0
+[288月2024 12:38:22.673] [modloading-worker-0/INFO] [moze_intel.projecte.PECore/]: Found and loaded RecipeType Mapper: VanillaRecipeTypes, with priority 0
+[288月2024 12:38:22.674] [modloading-worker-0/INFO] [moze_intel.projecte.PECore/]: Found and loaded RecipeType Mapper: Smithing, with priority 0
+[288月2024 12:38:22.675] [modloading-worker-0/INFO] [moze_intel.projecte.PECore/]: Found and loaded RecipeType Mapper: FallbackRecipeType, with priority -2147483648
+[288月2024 12:38:22.682] [modloading-worker-0/INFO] [moze_intel.projecte.PECore/]: Found and loaded NBT Processor: StoredEMCProcessor, with priority 0
+[288月2024 12:38:22.683] [modloading-worker-0/INFO] [moze_intel.projecte.PECore/]: Found and loaded NBT Processor: EnchantmentProcessor, with priority 0
+[288月2024 12:38:22.684] [modloading-worker-0/INFO] [moze_intel.projecte.PECore/]: Found and loaded NBT Processor: DecoratedPotProcessor, with priority 0
+[288月2024 12:38:22.686] [modloading-worker-0/INFO] [moze_intel.projecte.PECore/]: Found and loaded NBT Processor: DamageProcessor, with priority 2147483647
+[288月2024 12:38:22.687] [modloading-worker-0/INFO] [moze_intel.projecte.PECore/]: Found and loaded NBT Processor: ArmorTrimProcessor, with priority 0
+[288月2024 12:38:22.845] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [projecte] Starting version check at https://raw.githubusercontent.com/sinkillerj/ProjectE/mc1.20.x/update.json
+[288月2024 12:38:22.916] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.net.ConnectException: null
+	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:951) ~[java.net.http:?] {}
+	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?] {}
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:139) ~[fmlcore-1.20.1-47.2.20.jar%23174!/:?] {}
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:177) ~[fmlcore-1.20.1-47.2.20.jar%23174!/:?] {}
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?] {re:computing_frames,re:mixin}
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.2.20.jar%23174!/:?] {}
+Caused by: java.net.ConnectException
+	at jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1028) ~[java.net.http:?] {}
+	at jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227) ~[java.net.http:?] {}
+	at jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56) ~[java.net.http:?] {}
+	at jdk.internal.net.http.Http2Connection.createAsync(Http2Connection.java:468) ~[java.net.http:?] {}
+	at jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Http2ClientImpl.java:134) ~[java.net.http:?] {}
+	at jdk.internal.net.http.ExchangeImpl.get(ExchangeImpl.java:94) ~[java.net.http:?] {}
+	at jdk.internal.net.http.Exchange.establishExchange(Exchange.java:386) ~[java.net.http:?] {}
+	at jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:570) ~[java.net.http:?] {}
+	at jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:423) ~[java.net.http:?] {}
+	at jdk.internal.net.http.Exchange.responseAsync(Exchange.java:415) ~[java.net.http:?] {}
+	at jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:413) ~[java.net.http:?] {}
+	at jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:454) ~[java.net.http:?] {}
+	at java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?] {re:mixin}
+	at java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950) ~[?:?] {re:mixin}
+	at java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2372) ~[?:?] {re:mixin}
+	at jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:444) ~[java.net.http:?] {}
+	at jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:346) ~[java.net.http:?] {}
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?] {re:mixin}
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[?:?] {}
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:177) ~[java.net.http:?] {}
+	at java.util.concurrent.CompletableFuture.completeAsync(CompletableFuture.java:2719) ~[?:?] {re:mixin}
+	at jdk.internal.net.http.MultiExchange.responseAsync(MultiExchange.java:299) ~[java.net.http:?] {}
+	at jdk.internal.net.http.HttpClientImpl.sendAsync(HttpClientImpl.java:1047) ~[java.net.http:?] {}
+	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:930) ~[java.net.http:?] {}
+	... 5 more
+Caused by: java.nio.channels.UnresolvedAddressException
+	at sun.nio.ch.Net.checkAddress(Net.java:137) ~[?:?] {}
+	at sun.nio.ch.Net.checkAddress(Net.java:145) ~[?:?] {}
+	at sun.nio.ch.SocketChannelImpl.checkRemote(SocketChannelImpl.java:842) ~[?:?] {}
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:865) ~[?:?] {}
+	at jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210) ~[java.net.http:?] {}
+	at java.security.AccessController.doPrivileged(AccessController.java:571) ~[?:?] {}
+	at jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212) ~[java.net.http:?] {}
+	at jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56) ~[java.net.http:?] {}
+	at jdk.internal.net.http.Http2Connection.createAsync(Http2Connection.java:468) ~[java.net.http:?] {}
+	at jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Http2ClientImpl.java:134) ~[java.net.http:?] {}
+	at jdk.internal.net.http.ExchangeImpl.get(ExchangeImpl.java:94) ~[java.net.http:?] {}
+	at jdk.internal.net.http.Exchange.establishExchange(Exchange.java:386) ~[java.net.http:?] {}
+	at jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:570) ~[java.net.http:?] {}
+	at jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:423) ~[java.net.http:?] {}
+	at jdk.internal.net.http.Exchange.responseAsync(Exchange.java:415) ~[java.net.http:?] {}
+	at jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:413) ~[java.net.http:?] {}
+	at jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:454) ~[java.net.http:?] {}
+	at java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?] {re:mixin}
+	at java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950) ~[?:?] {re:mixin}
+	at java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2372) ~[?:?] {re:mixin}
+	at jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:444) ~[java.net.http:?] {}
+	at jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:346) ~[java.net.http:?] {}
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?] {re:mixin}
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[?:?] {}
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:177) ~[java.net.http:?] {}
+	at java.util.concurrent.CompletableFuture.completeAsync(CompletableFuture.java:2719) ~[?:?] {re:mixin}
+	at jdk.internal.net.http.MultiExchange.responseAsync(MultiExchange.java:299) ~[java.net.http:?] {}
+	at jdk.internal.net.http.HttpClientImpl.sendAsync(HttpClientImpl.java:1047) ~[java.net.http:?] {}
+	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:930) ~[java.net.http:?] {}
+	... 5 more
+[288月2024 12:38:22.916] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[288月2024 12:38:23.141] [modloading-worker-0/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@25e330fd]
+[288月2024 12:38:23.149] [modloading-worker-0/INFO] [com.sk89q.worldedit.forge.ForgeWorldEdit/]: WorldEdit for Forge (version 7.2.15+6463-5ca4dff) is loaded
+[288月2024 12:38:23.151] [main/INFO] [journeymap/]: Initializing Packet Registries
+[288月2024 12:38:24.327] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[288月2024 12:38:24.915] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.20 Target: 47.3.0
+[288月2024 12:38:24.915] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[288月2024 12:38:24.921] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/MC/MSL/MSL/Server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23173!/assets/.mcassetsroot' uses unexpected schema
+[288月2024 12:38:24.921] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/MC/MSL/MSL/Server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23173!/data/.mcassetsroot' uses unexpected schema
+[288月2024 12:38:25.740] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.9.24 Target: 5.10.1
+[288月2024 12:38:26.002] [main/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.forge.ForgePlatform
+[288月2024 12:38:26.563] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe projecte:tome_alt as it's serializer returned null
+[288月2024 12:38:26.574] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe projecte:tome as it's serializer returned null
+[288月2024 12:38:26.587] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[288月2024 12:38:26.691] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1436 advancements
+[288月2024 12:38:27.116] [main/INFO] [moze_intel.projecte.PECore/]: Considering file projecte:pe_custom_conversions/defaults.json, ID projecte:defaults
+[288月2024 12:38:27.129] [main/INFO] [moze_intel.projecte.PECore/]: Considering file projecte:pe_custom_conversions/metals.json, ID projecte:metals
+[288月2024 12:38:27.215] [main/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: "0 + 9*Item: minecraft:gold_nugget => 1*Item: minecraft:gold_ingot" ingredient cost: 2043 value of result: 2048 setValueFromConversion: 0 + 8*Item Tag: forge:ingots/iron => 1*Item: minecraft:gold_ingot
+[288月2024 12:38:27.219] [main/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 9*Item: minecraft:iron_nugget => 1*Item: minecraft:iron_ingot) cost 252 but output value is 256
+[288月2024 12:38:27.225] [main/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 9*Item: minecraft:disc_fragment_5 => 1*Item: minecraft:music_disc_5) cost 2043 but output value is 2048
+[288月2024 12:38:27.225] [main/WARN] [moze_intel.projecte.PECore/]: EMC Exploit: ingredients (0 + 1*Item: minecraft:cobblestone + 1*Item: minecraft:diorite => 2*Item: minecraft:andesite) cost 17 but output value is 16
+[288月2024 12:38:27.243] [main/INFO] [moze_intel.projecte.PECore/]: Registered 1368 EMC values. (took 213 ms)
+[288月2024 12:38:27.439] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[288月2024 12:38:27.439] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[288月2024 12:38:27.439] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[288月2024 12:38:27.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[288月2024 12:38:27.492] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[288月2024 12:38:27.524] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[288月2024 12:38:27.683] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[288月2024 12:38:27.683] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[288月2024 12:38:27.683] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[288月2024 12:38:27.683] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[288月2024 12:38:27.926] [Server thread/INFO] [Minecraft/]: This server is running Arclight version arclight-1.20.1-1.0.5-1a8925b (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT)
+[288月2024 12:38:28.890] [Server thread/INFO] [Arclight/]: 正在向 Bukkit 注册 ...
+[288月2024 12:38:28.965] [Server thread/INFO] [Arclight/]: 注册了 108 个材料，其中 22 个方块 86 个物品
+[288月2024 12:38:28.968] [Server thread/INFO] [Arclight/]: 注册了 1 个新的药水效果
+[288月2024 12:38:28.974] [Server thread/INFO] [Arclight/]: 注册了 39 个新的附魔
+[288月2024 12:38:28.976] [Server thread/INFO] [Arclight/]: 注册了 9 个新的生物类型
+[288月2024 12:38:28.977] [Server thread/INFO] [Arclight/]: 注册了 0 个新的村民职业
+[288月2024 12:38:28.978] [Server thread/INFO] [Arclight/]: 注册了 0 个新的生物群系
+[288月2024 12:38:29.000] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
+[288月2024 12:38:29.006] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
+[288月2024 12:38:29.006] [Server thread/INFO] [STDOUT/]: Server Ping Player Sample Count: 12
+[288月2024 12:38:29.105] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[288月2024 12:38:29.132] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[288月2024 12:38:29.156] [Server thread/INFO] [Arclight/]: 注册了 0 个新的世界类型
+[288月2024 12:38:29.517] [Server thread/INFO] [Minecraft/]: -------- World Settings For [HappyOldFamily] --------
+[288月2024 12:38:29.518] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[288月2024 12:38:29.518] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[288月2024 12:38:29.518] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[288月2024 12:38:29.518] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[288月2024 12:38:29.518] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[288月2024 12:38:29.518] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[288月2024 12:38:29.518] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[288月2024 12:38:29.518] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[288月2024 12:38:29.518] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[288月2024 12:38:29.518] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[288月2024 12:38:29.518] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[288月2024 12:38:29.518] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[288月2024 12:38:29.518] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[288月2024 12:38:29.518] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[288月2024 12:38:29.518] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[288月2024 12:38:29.518] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[288月2024 12:38:29.518] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[288月2024 12:38:29.518] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[288月2024 12:38:29.518] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[288月2024 12:38:29.518] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[288月2024 12:38:29.518] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[288月2024 12:38:29.518] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[288月2024 12:38:29.518] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[288月2024 12:38:29.518] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[288月2024 12:38:29.518] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[288月2024 12:38:29.520] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[288月2024 12:38:29.520] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[288月2024 12:38:29.520] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[288月2024 12:38:29.520] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[288月2024 12:38:29.520] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[288月2024 12:38:29.520] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[288月2024 12:38:29.520] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[288月2024 12:38:29.520] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[288月2024 12:38:29.520] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[288月2024 12:38:29.521] [Server thread/INFO] [Minecraft/]: View Distance: 20
+[288月2024 12:38:29.770] [Server thread/INFO] [Minecraft/]: -------- World Settings For [HappyOldFamily/DIM-1] --------
+[288月2024 12:38:29.770] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[288月2024 12:38:29.771] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[288月2024 12:38:29.771] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[288月2024 12:38:29.771] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[288月2024 12:38:29.771] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[288月2024 12:38:29.771] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[288月2024 12:38:29.771] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[288月2024 12:38:29.771] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[288月2024 12:38:29.771] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[288月2024 12:38:29.771] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[288月2024 12:38:29.771] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[288月2024 12:38:29.771] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[288月2024 12:38:29.771] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[288月2024 12:38:29.771] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[288月2024 12:38:29.771] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[288月2024 12:38:29.771] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[288月2024 12:38:29.771] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[288月2024 12:38:29.771] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[288月2024 12:38:29.771] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[288月2024 12:38:29.771] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[288月2024 12:38:29.771] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[288月2024 12:38:29.771] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[288月2024 12:38:29.771] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[288月2024 12:38:29.771] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[288月2024 12:38:29.771] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[288月2024 12:38:29.771] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[288月2024 12:38:29.771] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[288月2024 12:38:29.771] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[288月2024 12:38:29.771] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[288月2024 12:38:29.771] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[288月2024 12:38:29.771] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[288月2024 12:38:29.771] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[288月2024 12:38:29.771] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[288月2024 12:38:29.771] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[288月2024 12:38:29.771] [Server thread/INFO] [Minecraft/]: View Distance: 20
+[288月2024 12:38:29.793] [Server thread/INFO] [Minecraft/]: -------- World Settings For [HappyOldFamily/DIM1] --------
+[288月2024 12:38:29.793] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[288月2024 12:38:29.793] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[288月2024 12:38:29.793] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[288月2024 12:38:29.793] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[288月2024 12:38:29.793] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[288月2024 12:38:29.793] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[288月2024 12:38:29.793] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[288月2024 12:38:29.793] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[288月2024 12:38:29.793] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[288月2024 12:38:29.793] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[288月2024 12:38:29.793] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[288月2024 12:38:29.793] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[288月2024 12:38:29.793] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[288月2024 12:38:29.793] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[288月2024 12:38:29.793] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[288月2024 12:38:29.793] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[288月2024 12:38:29.793] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[288月2024 12:38:29.793] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[288月2024 12:38:29.793] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[288月2024 12:38:29.793] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[288月2024 12:38:29.793] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[288月2024 12:38:29.793] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[288月2024 12:38:29.793] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[288月2024 12:38:29.793] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[288月2024 12:38:29.793] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[288月2024 12:38:29.793] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[288月2024 12:38:29.794] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[288月2024 12:38:29.794] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[288月2024 12:38:29.794] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[288月2024 12:38:29.794] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[288月2024 12:38:29.794] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[288月2024 12:38:29.794] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[288月2024 12:38:29.794] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[288月2024 12:38:29.794] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[288月2024 12:38:29.794] [Server thread/INFO] [Minecraft/]: View Distance: 20
+[288月2024 12:38:29.812] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
+[288月2024 12:38:29.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[288月2024 12:38:31.824] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[288月2024 12:38:31.841] [Worker-Main-26/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[288月2024 12:38:31.847] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[288月2024 12:38:31.852] [Worker-Main-29/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[288月2024 12:38:31.858] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[288月2024 12:38:32.325] [Worker-Main-29/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[288月2024 12:38:32.825] [Worker-Main-29/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[288月2024 12:38:32.899] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3076 ms
+[288月2024 12:38:32.900] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.806s)! For help, type "help"
+[288月2024 12:38:32.921] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[288月2024 12:38:32.922] [Server thread/INFO] [Arclight/]: Forwarding forge permission[forge:default_handler] to bukkit
+[288月2024 12:38:32.958] [ProjectE UUID Checker Server/ERROR] [moze_intel.projecte.PECore/FATAL]: Caught exception in UUID Checker thread!
+java.net.UnknownHostException: raw.githubusercontent.com
+	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567) ~[?:?] {}
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?] {}
+	at java.net.Socket.connect(Socket.java:751) ~[?:?] {}
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?] {}
+	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:181) ~[?:?] {}
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:183) ~[?:?] {}
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:531) ~[?:?] {}
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:636) ~[?:?] {}
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264) ~[?:?] {}
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377) ~[?:?] {}
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193) ~[?:?] {}
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1237) ~[?:?] {}
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1123) ~[?:?] {}
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179) ~[?:?] {}
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1675) ~[?:?] {}
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599) ~[?:?] {}
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223) ~[?:?] {}
+	at java.net.URL.openStream(URL.java:1325) ~[?:?] {re:mixin}
+	at moze_intel.projecte.network.ThreadCheckUUID.run(ThreadCheckUUID.java:26) ~[ProjectE-1.20.1-PE1.0.1.jar%23170!/:1.0.1] {re:classloading}
+[288月2024 12:40:26.858] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player yydswjhyyds is b4577b39-43f8-34cd-83cc-7a6de58af4aa
+[288月2024 12:40:28.396] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: yydswjhyyds[/127.0.0.1:50246] logged in with entity id 88 at (227.59461274432994, 74.5, 118.69999998807907)
+[288月2024 12:40:28.520] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yydswjhyyds joined the game
+[288月2024 12:56:28.190] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pig['Pig'/203, l='ServerLevel[HappyOldFamily]', x=329.66, y=79.00, z=295.62] died: Pig fell from a high place
+[288月2024 12:56:28.383] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Cow['Cow'/214, l='ServerLevel[HappyOldFamily]', x=344.82, y=88.00, z=307.88] died: Cow fell from a high place
+[288月2024 12:57:51.090] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //copy
+[288月2024 12:58:28.208] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //paste
+[288月2024 12:58:36.940] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //undo
+[288月2024 12:58:46.347] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //paste
+[288月2024 13:01:47.635] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //set 2
+[288月2024 13:02:06.817] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //set 2
+[288月2024 13:02:28.282] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //set 2
+[288月2024 13:03:07.307] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //set 2
+[288月2024 13:03:25.942] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //set 2
+[288月2024 13:03:30.540] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Cow['Cow'/205, l='ServerLevel[HappyOldFamily]', x=363.55, y=87.00, z=271.55] died: Cow suffocated in a wall
+[288月2024 13:03:45.414] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //set 2
+[288月2024 13:05:30.455] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //set air
+[288月2024 13:05:59.660] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //set air
+[288月2024 13:06:55.342] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //set air
+[288月2024 13:07:39.482] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: /time set day
+[288月2024 13:07:39.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [yydswjhyyds: Set the time to 1000]
+[288月2024 13:27:15.913] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //replace 4C7F99 D1B1A1
+[288月2024 13:27:55.292] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //replace 4C7F99 ,D1B1A1
+[288月2024 13:30:42.230] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //replace #4C7F99 to #D1B1A1
+[288月2024 13:31:56.738] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //replace 4C7F99 D1B1A1
+[288月2024 13:34:22.285] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //replace #4C7F99 #D1B1A1
+[288月2024 13:58:10.734] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //set 2
+[288月2024 13:58:34.441] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //set 2
+[288月2024 13:59:05.087] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //undo
+[288月2024 13:59:27.790] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //set 2
+[288月2024 13:59:59.485] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //set 2
+[288月2024 14:00:11.939] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //set 2
+[288月2024 14:00:30.107] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //set 2
+[288月2024 14:01:44.385] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //set 2
+[288月2024 14:02:17.433] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //set air
+[288月2024 14:02:30.485] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //set 2
+[288月2024 14:20:29.881] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player qiekefusiji is be6b855a-7b5d-3420-8b0c-9281aca2b1c8
+[288月2024 14:20:31.332] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: qiekefusiji[/127.0.0.1:59547] logged in with entity id 21016 at (-1142.7045237217387, 83.0, 283.29619702554265)
+[288月2024 14:20:31.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: qiekefusiji joined the game
+[288月2024 14:21:46.796] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qiekefusiji issued server command: /time set 2057
+[288月2024 14:21:46.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [qiekefusiji: Set the time to 2057]
+[288月2024 14:22:35.906] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yydswjhyyds> 来修路
+[288月2024 14:22:46.036] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <qiekefusiji> NONO!!!!!!!!!!!!
+[288月2024 14:22:53.307] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yydswjhyyds> ?
+[288月2024 14:24:41.875] [Async Chat Thread - #3/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <qiekefusiji> 古墓丽影真不错
+[288月2024 14:25:27.174] [Async Chat Thread - #3/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <qiekefusiji> wo hai xia le ci ke xing tiao
+[288月2024 14:25:46.309] [User Authenticator #3/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player StevenYuan is baa73e02-dd8a-371b-be47-65badae2cb8a
+[288月2024 14:25:47.727] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: StevenYuan[/127.0.0.1:60298] logged in with entity id 26050 at (24.943460602977883, 101.85213975959616, -301.4197699606102)
+[288月2024 14:25:47.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: StevenYuan joined the game
+[288月2024 14:26:16.860] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /gamemode survival
+[288月2024 14:26:16.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [StevenYuan: Set own game mode to Survival Mode]
+[288月2024 14:27:33.349] [Async Chat Thread - #5/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yydswjhyyds> here
+[288月2024 14:28:30.407] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Axolotl['Axolotl'/13023, l='ServerLevel[HappyOldFamily]', x=460.50, y=-2.00, z=408.50] died: Axolotl died from dehydration
+[288月2024 14:29:26.363] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: /tp StevenYuan
+[288月2024 14:29:26.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [yydswjhyyds: Teleported yydswjhyyds to StevenYuan]
+[288月2024 14:29:33.041] [Async Chat Thread - #7/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <StevenYuan> nihao
+[288月2024 14:29:38.342] [Async Chat Thread - #6/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yydswjhyyds> nihao
+[288月2024 14:29:52.481] [Async Chat Thread - #7/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yydswjhyyds> lai wo zhe
+[288月2024 14:29:59.104] [Async Chat Thread - #6/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <StevenYuan> 在带人参观
+[288月2024 14:30:07.414] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /tp yydswjhyyds
+[288月2024 14:30:07.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [StevenYuan: Teleported StevenYuan to yydswjhyyds]
+[288月2024 14:30:08.944] [Async Chat Thread - #7/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yydswjhyyds> wocs
+[288月2024 14:30:17.695] [Async Chat Thread - #6/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <StevenYuan> nb
+[288月2024 14:30:23.929] [Async Chat Thread - #7/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <StevenYuan> haokan
+[288月2024 14:30:28.010] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qiekefusiji issued server command: /tp StevenYuan
+[288月2024 14:30:28.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [qiekefusiji: Teleported qiekefusiji to StevenYuan]
+[288月2024 14:30:46.084] [Async Chat Thread - #7/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <qiekefusiji> 666
+[288月2024 14:31:17.270] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: /time set 10000
+[288月2024 14:31:17.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [yydswjhyyds: Set the time to 10000]
+[288月2024 14:31:51.865] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan lost connection: Disconnected
+[288月2024 14:31:51.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: StevenYuan left the game
+[288月2024 14:33:49.943] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qiekefusiji issued server command: /time set 2058
+[288月2024 14:33:49.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [qiekefusiji: Set the time to 2058]
+[288月2024 14:34:24.697] [Async Chat Thread - #9/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <yydswjhyyds> 把家里路普一下
+[288月2024 14:34:36.737] [Async Chat Thread - #8/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <qiekefusiji> MA SHANG LAI
+[288月2024 14:36:08.610] [Async Chat Thread - #11/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <qiekefusiji> GUA JI SHANG GE CE SUO
+[288月2024 14:36:15.191] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qiekefusiji lost connection: Disconnected
+[288月2024 14:36:15.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: qiekefusiji left the game
+[288月2024 14:41:42.224] [User Authenticator #4/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player qiekefusiji is be6b855a-7b5d-3420-8b0c-9281aca2b1c8
+[288月2024 14:41:44.195] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: qiekefusiji[/127.0.0.1:61800] logged in with entity id 43785 at (-1147.699999988079, 80.31518699095902, 266.0031632551359)
+[288月2024 14:41:44.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: qiekefusiji joined the game
+[288月2024 14:44:55.646] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qiekefusiji issued server command: /weather clear
+[288月2024 14:44:55.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [qiekefusiji: Set the weather to clear]
+[288月2024 14:45:02.697] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qiekefusiji issued server command: /time set 2058
+[288月2024 14:45:02.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [qiekefusiji: Set the time to 2058]
+[288月2024 14:52:19.399] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //copy
+[288月2024 14:52:36.766] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //paste
+[288月2024 14:52:42.648] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //undo
+[288月2024 14:52:48.846] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //paste
+[288月2024 14:52:56.045] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //undo
+[288月2024 14:53:03.759] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //paste
+[288月2024 14:53:09.136] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //undo
+[288月2024 14:53:15.588] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //paste
+[288月2024 14:54:03.543] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //undo
+[288月2024 14:54:31.417] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //copy
+[288月2024 14:54:33.590] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qiekefusiji issued server command: /time set 2059
+[288月2024 14:54:33.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [qiekefusiji: Set the time to 2059]
+[288月2024 14:54:52.332] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qiekefusiji issued server command: /give qiekefusiji minecraft:cherry_log 64
+[288月2024 14:54:52.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [qiekefusiji: Gave 64 [Cherry Log] to qiekefusiji]
+[288月2024 14:54:55.859] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //paste
+[288月2024 14:55:00.460] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //undo
+[288月2024 14:55:07.335] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //paste
+[288月2024 14:55:16.203] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //undo
+[288月2024 14:55:17.291] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qiekefusiji issued server command: /give qiekefusiji minecraft:cherry_leaves 64
+[288月2024 14:55:17.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [qiekefusiji: Gave 64 [Cherry Leaves] to qiekefusiji]
+[288月2024 14:55:22.385] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //paste
+[288月2024 14:58:34.843] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //set 1
+[288月2024 14:58:38.966] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //undo
+[288月2024 15:02:08.759] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //set minecraft:stripped_cherry_log
+[288月2024 15:02:26.947] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qiekefusiji issued server command: /give qiekefusiji minecraft:cherry_planks 1
+[288月2024 15:02:26.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [qiekefusiji: Gave 1 [Cherry Planks] to qiekefusiji]
+[288月2024 15:03:09.205] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qiekefusiji issued server command: /give qiekefusiji minecraft:cherry_sapling 1
+[288月2024 15:03:09.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [qiekefusiji: Gave 1 [Cherry Sapling] to qiekefusiji]
+[288月2024 15:03:36.417] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //set minecraft:stripped_cherry_log
+[288月2024 15:03:44.191] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //undo
+[288月2024 15:04:04.148] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qiekefusiji issued server command: /time set 2059
+[288月2024 15:04:04.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [qiekefusiji: Set the time to 2059]
+[288月2024 15:04:31.743] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //set minecraft:stripped_cherry_log
+[288月2024 15:04:32.434] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qiekefusiji issued server command: /give qiekefusiji minecraft:bone_meal 2
+[288月2024 15:04:32.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [qiekefusiji: Gave 2 [Bone Meal] to qiekefusiji]
+[288月2024 15:04:56.993] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //set minecraft:stripped_cherry_log
+[288月2024 15:05:03.593] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qiekefusiji issued server command: /give qiekefusiji minecraft:bone_meal 3
+[288月2024 15:05:03.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [qiekefusiji: Gave 3 [Bone Meal] to qiekefusiji]
+[288月2024 15:06:12.045] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qiekefusiji issued server command: /tp yydswjhyyds
+[288月2024 15:06:12.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [qiekefusiji: Teleported qiekefusiji to yydswjhyyds]
+[288月2024 15:08:18.837] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombifiedPiglin['Pig'/62087, l='ServerLevel[HappyOldFamily]', x=317.70, y=85.00, z=266.02] died: Pig hit the ground too hard whilst trying to escape yydswjhyyds
+[288月2024 15:08:22.002] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qiekefusiji issued server command: /weather clear
+[288月2024 15:08:22.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [qiekefusiji: Set the weather to clear]
+[288月2024 15:09:32.983] [User Authenticator #5/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player StevenYuan is baa73e02-dd8a-371b-be47-65badae2cb8a
+[288月2024 15:09:34.400] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: StevenYuan[/127.0.0.1:64510] logged in with entity id 64445 at (248.9580387884546, 100.24944185029318, 210.81102206292022)
+[288月2024 15:09:34.443] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: StevenYuan joined the game
+[288月2024 15:09:51.348] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /tp yydswjhyyds
+[288月2024 15:09:51.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [StevenYuan: Teleported StevenYuan to yydswjhyyds]
+[288月2024 15:10:41.755] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //copy
+[288月2024 15:10:48.349] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: qiekefusiji lost connection: Disconnected
+[288月2024 15:10:48.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: qiekefusiji left the game
+[288月2024 15:11:06.598] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //expand 1 up
+[288月2024 15:11:11.954] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //copy
+[288月2024 15:11:18.450] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 15:11:22.843] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 15:11:30.249] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /tp yydswjhyyds
+[288月2024 15:11:30.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [StevenYuan: Teleported StevenYuan to yydswjhyyds]
+[288月2024 15:12:52.717] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //copy
+[288月2024 15:12:56.354] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 15:12:59.550] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 15:13:02.644] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 15:13:13.895] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //copy
+[288月2024 15:13:19.042] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 15:13:23.814] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 15:13:43.541] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //copy
+[288月2024 15:13:43.631] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: /time set day
+[288月2024 15:13:43.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [yydswjhyyds: Set the time to 1000]
+[288月2024 15:13:51.407] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 15:13:56.685] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 15:14:10.141] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 15:15:14.545] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //set 27
+[288月2024 15:17:10.696] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //set 27
+[288月2024 15:20:18.498] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //set air
+[288月2024 15:20:44.907] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //set dirt
+[288月2024 15:20:59.047] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //set 2
+[288月2024 15:21:12.700] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //set minecraft:dirt
+[288月2024 15:21:26.854] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //set 2
+[288月2024 15:22:15.792] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //set minecraft:dirt
+[288月2024 15:22:31.909] [User Authenticator #6/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player GGBond is 02c61567-6936-3387-a59f-94632c68df85
+[288月2024 15:22:33.369] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: GGBond[/127.0.0.1:49232] logged in with entity id 79133 at (52.263959372936675, 86.0, -302.68980841141473)
+[288月2024 15:22:33.381] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GGBond joined the game
+[288月2024 15:22:52.847] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //set air
+[288月2024 15:23:09.606] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //set air
+[288月2024 15:23:45.414] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: /time set day
+[288月2024 15:23:45.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [yydswjhyyds: Set the time to 1000]
+[288月2024 15:24:40.251] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan lost connection: Disconnected
+[288月2024 15:24:40.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: StevenYuan left the game
+[288月2024 15:30:42.145] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //set air
+[288月2024 15:30:47.612] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //undo
+[288月2024 15:31:01.901] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //set air
+[288月2024 15:33:49.791] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: GGBond issued server command: /time set day
+[288月2024 15:33:49.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GGBond: Set the time to 1000]
+[288月2024 15:37:06.490] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //set 1:6
+[288月2024 15:43:38.055] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: GGBond issued server command: /time set day
+[288月2024 15:43:38.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GGBond: Set the time to 1000]
+[288月2024 15:53:22.958] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: GGBond issued server command: /time set day
+[288月2024 15:53:22.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GGBond: Set the time to 1000]
+[288月2024 16:03:20.356] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: GGBond issued server command: /time set day
+[288月2024 16:03:20.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GGBond: Set the time to 1000]
+[288月2024 16:14:15.596] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: GGBond issued server command: /time set day
+[288月2024 16:14:15.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GGBond: Set the time to 1000]
+[288月2024 16:18:25.517] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: GGBond issued server command: /give GGBond minecraft:iron_bars
+[288月2024 16:18:25.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GGBond: Gave 1 [Iron Bars] to GGBond]
+[288月2024 16:18:38.994] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: GGBond issued server command: /give GGBond minecraft:iron_block
+[288月2024 16:18:38.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GGBond: Gave 1 [Block of Iron] to GGBond]
+[288月2024 16:18:44.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GGBond has made the advancement [Acquire Hardware]
+[288月2024 16:24:37.419] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: GGBond issued server command: /time set day
+[288月2024 16:24:37.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GGBond: Set the time to 1000]
+[288月2024 16:27:15.357] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: GGBond issued server command: /time set day
+[288月2024 16:27:15.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GGBond: Set the time to 1000]
+[288月2024 16:27:24.855] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: GGBond issued server command: /weather clear
+[288月2024 16:27:24.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GGBond: Set the weather to clear]
+[288月2024 16:37:14.650] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: GGBond issued server command: /time set day
+[288月2024 16:37:14.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GGBond: Set the time to 1000]
+[288月2024 16:47:25.965] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: GGBond issued server command: /time set day
+[288月2024 16:47:25.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GGBond: Set the time to 1000]
+[288月2024 16:57:53.997] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: GGBond issued server command: /time set day
+[288月2024 16:57:53.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GGBond: Set the time to 1000]
+[288月2024 17:06:31.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GGBond has made the advancement [Stone Age]
+[288月2024 17:06:56.475] [User Authenticator #7/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player StevenYuan is baa73e02-dd8a-371b-be47-65badae2cb8a
+[288月2024 17:06:57.877] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: StevenYuan[/127.0.0.1:57048] logged in with entity id 128120 at (47.179040145673014, 82.74313548392374, -362.0201252618957)
+[288月2024 17:06:57.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: StevenYuan joined the game
+[288月2024 17:07:22.912] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //schem load zhenzhupao
+[288月2024 17:07:24.766] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: GGBond issued server command: /time set day
+[288月2024 17:07:24.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GGBond: Set the time to 1000]
+[288月2024 17:07:29.917] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan lost connection: Disconnected
+[288月2024 17:07:29.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: StevenYuan left the game
+[288月2024 17:09:28.543] [User Authenticator #8/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player StevenYuan is baa73e02-dd8a-371b-be47-65badae2cb8a
+[288月2024 17:09:29.974] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: StevenYuan[/127.0.0.1:57288] logged in with entity id 129679 at (47.69960703563159, 72.0, -354.70123301999695)
+[288月2024 17:09:29.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: StevenYuan joined the game
+[288月2024 17:09:50.156] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //schem load zhenzhupao
+[288月2024 17:11:31.947] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //schem load zhenzhupao
+[288月2024 17:11:31.996] [WorldEdit Task Executor - 0/INFO] [com.sk89q.worldedit.command.SchematicCommands/]: StevenYuan loaded D:\MC\MSL\MSL\Server\config\worldedit\schematics\zhenzhupao.schem
+[288月2024 17:11:36.354] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 17:11:58.951] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: GGBond issued server command: /time set day
+[288月2024 17:11:58.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GGBond: Set the time to 1000]
+[288月2024 17:13:10.857] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //undo
+[288月2024 17:13:23.164] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 17:14:09.661] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /gamerule mobGriefing false
+[288月2024 17:14:09.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [StevenYuan: Gamerule mobGriefing is now set to: false]
+[288月2024 17:14:43.555] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //undo
+[288月2024 17:14:59.809] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 17:16:09.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: StevenYuan hit the ground too hard
+[288月2024 17:16:23.056] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //undo
+[288月2024 17:16:40.049] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 17:21:30.934] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: /gamemode spectator
+[288月2024 17:21:30.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [yydswjhyyds: Set own game mode to Spectator Mode]
+[288月2024 17:21:37.694] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: /gamemode creative
+[288月2024 17:21:37.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [yydswjhyyds: Set own game mode to Creative Mode]
+[288月2024 17:21:46.542] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: /gamemode survival
+[288月2024 17:21:46.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [yydswjhyyds: Set own game mode to Survival Mode]
+[288月2024 17:22:08.249] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: /time set day
+[288月2024 17:22:08.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [yydswjhyyds: Set the time to 1000]
+[288月2024 17:25:00.014] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: GGBond moved wrongly!
+[288月2024 17:25:00.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GGBond has made the advancement [Sticky Situation]
+[288月2024 17:25:30.811] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: GGBond moved wrongly!
+[288月2024 17:26:44.108] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: /gamemode creative
+[288月2024 17:26:44.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [yydswjhyyds: Set own game mode to Creative Mode]
+[288月2024 17:27:25.044] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //copy
+[288月2024 17:28:26.556] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //paste
+[288月2024 17:28:40.107] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //undo
+[288月2024 17:29:42.757] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //copy
+[288月2024 17:29:46.902] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //paste
+[288月2024 17:29:54.455] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //undo
+[288月2024 17:30:04.219] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2051ms or 41 ticks behind
+[288月2024 17:30:16.245] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //copy
+[288月2024 17:30:36.124] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //paste
+[288月2024 17:30:42.713] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //undo
+[288月2024 17:31:13.005] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //rotate 90
+[288月2024 17:31:22.166] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //paste
+[288月2024 17:31:34.864] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //undo
+[288月2024 17:31:42.747] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //paste
+[288月2024 17:32:39.864] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //set 2
+[288月2024 17:32:43.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: StevenYuan was blown up by Creeper
+[288月2024 17:32:54.121] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //set 2s
+[288月2024 17:32:59.904] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //set 2
+[288月2024 17:34:17.208] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /tp yydswjhyyds
+[288月2024 17:34:17.209] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [StevenYuan: Teleported StevenYuan to yydswjhyyds]
+[288月2024 17:35:58.638] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: /time set 12500
+[288月2024 17:35:58.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [yydswjhyyds: Set the time to 12500]
+[288月2024 17:36:03.944] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan moved too quickly! -2509.8674717157746,-4.398142724388322,-645.5196768907372
+[288月2024 17:36:12.950] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //time set 0
+[288月2024 17:36:16.616] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: /time set 0
+[288月2024 17:36:16.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [yydswjhyyds: Set the time to 0]
+[288月2024 17:38:18.047] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //copy
+[288月2024 17:38:45.900] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //expand 100 up
+[288月2024 17:38:48.589] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //cut
+[288月2024 17:38:55.152] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //undo
+[288月2024 17:39:03.108] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: GGBond lost connection: Disconnected
+[288月2024 17:39:03.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GGBond left the game
+[288月2024 17:39:24.489] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //expand 100 up
+[288月2024 17:39:27.154] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //cut
+[288月2024 17:39:34.894] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //rotate 90
+[288月2024 17:39:42.191] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 17:41:32.888] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /give StevenYuan minecraft:acacia_boat
+[288月2024 17:41:32.890] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [StevenYuan: Gave 1 [Acacia Boat] to StevenYuan]
+[288月2024 17:41:46.368] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan moved wrongly!
+[288月2024 17:42:49.446] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /gamemode creative
+[288月2024 17:42:49.447] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [StevenYuan: Set own game mode to Creative Mode]
+[288月2024 17:43:22.951] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //copy
+[288月2024 17:43:55.547] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //paste
+[288月2024 17:44:01.406] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //undo
+[288月2024 17:44:18.645] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //rotate 180
+[288月2024 17:44:23.391] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //paste
+[288月2024 17:46:59.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: StevenYuan has made the advancement [Sticky Situation]
+[288月2024 17:47:22.598] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: /time set day
+[288月2024 17:47:22.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [yydswjhyyds: Set the time to 1000]
+[288月2024 17:49:02.208] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //undo
+[288月2024 17:49:07.995] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //undo
+[288月2024 17:50:42.165] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 18:16:24.238] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //undo
+[288月2024 18:18:51.646] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //copy
+[288月2024 18:19:44.001] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //paste
+[288月2024 18:19:49.455] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //undo
+[288月2024 18:19:54.293] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //rotate 90
+[288月2024 18:19:58.144] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //paste
+[288月2024 18:20:03.995] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //undo
+[288月2024 18:20:10.899] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: /rotate 180
+[288月2024 18:20:18.856] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //rotate 180
+[288月2024 18:20:23.698] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //paste
+[288月2024 18:20:34.745] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //undo
+[288月2024 18:20:44.799] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //paste
+[288月2024 18:20:54.043] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //undo
+[288月2024 18:21:01.706] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: //paste
+[288月2024 18:26:22.399] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: /time set day
+[288月2024 18:26:22.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [yydswjhyyds: Set the time to 1000]
+[288月2024 18:26:32.852] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Sheep['Sheep'/150791, l='ServerLevel[HappyOldFamily]', x=101.81, y=71.00, z=-389.15] died: Sheep was struck by lightning
+[288月2024 18:26:34.342] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: /weather clear
+[288月2024 18:26:34.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [yydswjhyyds: Set the weather to clear]
+[288月2024 18:29:31.513] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: /tp StevenYuan
+[288月2024 18:29:31.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [yydswjhyyds: Teleported yydswjhyyds to StevenYuan]
+[288月2024 18:35:10.055] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds lost connection: Disconnected
+[288月2024 18:35:10.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yydswjhyyds left the game
+[288月2024 18:53:25.868] [User Authenticator #9/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player yydswjhyyds is b4577b39-43f8-34cd-83cc-7a6de58af4aa
+[288月2024 18:53:55.798] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@807e03a[id=b4577b39-43f8-34cd-83cc-7a6de58af4aa,name=yydswjhyyds,properties={},legacy=false] (/127.0.0.1:65212) lost connection: Disconnected
+[288月2024 18:55:17.140] [User Authenticator #10/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player yydswjhyyds is b4577b39-43f8-34cd-83cc-7a6de58af4aa
+[288月2024 18:55:18.615] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: yydswjhyyds[/127.0.0.1:65346] logged in with entity id 205071 at (2540.2234935898923, 122.5, 244.29754185757022)
+[288月2024 18:55:18.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yydswjhyyds joined the game
+[288月2024 18:57:05.045] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //redo
+[288月2024 18:57:09.498] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //redo
+[288月2024 18:57:12.758] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //undo
+[288月2024 18:57:36.894] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 18:57:42.150] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //undo
+[288月2024 18:57:49.106] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //rotate -90
+[288月2024 18:57:55.099] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 18:58:43.003] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /time set
+[288月2024 18:58:48.306] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /time set day
+[288月2024 18:58:48.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [StevenYuan: Set the time to 1000]
+[288月2024 18:58:59.930] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds issued server command: /tp StevenYuan
+[288月2024 18:58:59.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [yydswjhyyds: Teleported yydswjhyyds to StevenYuan]
+[288月2024 18:59:52.245] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //rotate
+[288月2024 18:59:58.206] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //rotate 90
+[288月2024 19:00:03.379] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 19:00:14.147] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //undo
+[288月2024 19:00:16.916] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 19:06:02.294] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Cow['Cow'/60, l='ServerLevel[HappyOldFamily]', x=-153.90, y=79.00, z=-36.47] died: Cow was struck by lightning
+[288月2024 19:09:05.497] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /time set day
+[288月2024 19:09:05.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [StevenYuan: Set the time to 1000]
+[288月2024 19:12:29.905] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: yydswjhyyds lost connection: Disconnected
+[288月2024 19:12:29.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: yydswjhyyds left the game
+[288月2024 19:22:12.401] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 19:30:05.787] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 19:30:23.790] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //undo
+[288月2024 19:30:30.987] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 19:31:15.331] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //undo
+[288月2024 19:31:17.381] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //undo
+[288月2024 19:31:20.201] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //undo
+[288月2024 19:31:39.847] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //schem load zhenzhupao
+[288月2024 19:31:39.857] [WorldEdit Task Executor - 1/INFO] [com.sk89q.worldedit.command.SchematicCommands/]: StevenYuan loaded D:\MC\MSL\MSL\Server\config\worldedit\schematics\zhenzhupao.schem
+[288月2024 19:31:45.510] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 19:32:06.197] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //undo
+[288月2024 19:32:13.245] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //rotate 90
+[288月2024 19:32:21.098] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 19:32:58.692] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //undo
+[288月2024 19:33:02.037] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 19:33:20.357] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //undo
+[288月2024 19:33:27.296] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 19:37:46.555] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 19:38:15.491] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 19:38:21.312] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //undo
+[288月2024 19:38:23.291] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //undo
+[288月2024 19:38:31.166] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 19:38:55.443] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 19:42:56.635] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //undo
+[288月2024 19:43:00.864] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //undo
+[288月2024 19:43:05.455] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //undo
+[288月2024 19:51:39.415] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /forceload ~ ~
+[288月2024 19:52:49.616] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /forceload 25 -365
+[288月2024 19:53:08.312] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /forceload add 25 -365 217 -307
+[288月2024 19:53:08.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [StevenYuan: Marked [1, -23] chunks in minecraft:overworld from [1, -23] to [13, -20] to be force loaded]
+[288月2024 19:54:15.654] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /forceload add 25 -365 ~ ~
+[288月2024 19:54:15.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [StevenYuan: Marked [1, -19] chunks in minecraft:overworld from [1, -23] to [13, -19] to be force loaded]
+[288月2024 19:55:05.816] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /forceload add 25 -365 ~ ~
+[288月2024 19:55:15.435] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /forceload add 25 -365 ~ ~
+[288月2024 19:55:23.645] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /forceload add 25 -365 ~ ~
+[288月2024 19:55:23.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [StevenYuan: Marked [1, -18] chunks in minecraft:overworld from [1, -23] to [8, -18] to be force loaded]
+[288月2024 19:55:26.513] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /forceload add 25 -365 ~ ~
+[288月2024 19:58:07.264] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //expand 100 up
+[288月2024 19:58:13.807] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //copy
+[288月2024 19:58:30.297] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //schem save -f zhenzhupao
+[288月2024 19:58:30.337] [WorldEdit Task Executor - 2/INFO] [com.sk89q.worldedit.command.SchematicCommands/]: StevenYuan saved D:\MC\MSL\MSL\Server\config\worldedit\schematics\zhenzhupao.schem (overwriting previous file)
+[288月2024 20:04:19.049] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //schem load zhenzhupao
+[288月2024 20:04:19.060] [WorldEdit Task Executor - 3/INFO] [com.sk89q.worldedit.command.SchematicCommands/]: StevenYuan loaded D:\MC\MSL\MSL\Server\config\worldedit\schematics\zhenzhupao.schem
+[288月2024 20:04:30.043] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 20:04:57.904] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //undo
+[288月2024 20:05:16.290] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 20:07:12.832] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /time set day
+[288月2024 20:07:12.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [StevenYuan: Set the time to 1000]
+[288月2024 20:13:35.243] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //copy
+[288月2024 20:13:45.195] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //copy
+[288月2024 20:13:49.700] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 20:14:06.561] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //schem save -f zhenzhupao
+[288月2024 20:14:06.564] [WorldEdit Task Executor - 4/INFO] [com.sk89q.worldedit.command.SchematicCommands/]: StevenYuan saved D:\MC\MSL\MSL\Server\config\worldedit\schematics\zhenzhupao.schem (overwriting previous file)
+[288月2024 20:19:36.208] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan moved too quickly! -138.9626156790817,-59.87046234861788,-377.8051056777249
+[288月2024 20:19:43.293] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /time set day
+[288月2024 20:19:43.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [StevenYuan: Set the time to 1000]
+[288月2024 20:20:11.195] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 20:21:27.264] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /gamerule mobGriefing false
+[288月2024 20:21:27.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [StevenYuan: Gamerule mobGriefing is now set to: false]
+[288月2024 20:21:46.437] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //schem load zhenzhupao
+[288月2024 20:21:46.447] [WorldEdit Task Executor - 5/INFO] [com.sk89q.worldedit.command.SchematicCommands/]: StevenYuan loaded D:\MC\MSL\MSL\Server\config\worldedit\schematics\zhenzhupao.schem
+[288月2024 20:21:49.190] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 20:22:36.393] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //undo
+[288月2024 20:22:43.706] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //undo
+[288月2024 20:22:46.596] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //undo
+[288月2024 20:22:54.190] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //undo
+[288月2024 20:22:58.551] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //undo
+[288月2024 20:23:03.454] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //undo
+[288月2024 20:23:07.111] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //undo
+[288月2024 20:23:09.803] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //redo
+[288月2024 20:23:15.268] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //redo
+[288月2024 20:24:04.263] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //copy
+[288月2024 20:24:07.884] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 20:25:12.957] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 20:25:30.798] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //undo
+[288月2024 20:25:32.985] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //undo
+[288月2024 20:25:56.686] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //redo
+[288月2024 20:26:09.783] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 20:26:25.633] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //undo
+[288月2024 20:26:29.693] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //undo
+[288月2024 20:26:34.311] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //undo 5
+[288月2024 20:26:36.706] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //redo
+[288月2024 20:26:39.985] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //redo
+[288月2024 20:26:56.889] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //copy
+[288月2024 20:27:06.293] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //expand 100 up
+[288月2024 20:27:09.085] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //copy
+[288月2024 20:27:20.002] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //schem save -f zhenzhupao
+[288月2024 20:27:20.014] [WorldEdit Task Executor - 6/INFO] [com.sk89q.worldedit.command.SchematicCommands/]: StevenYuan saved D:\MC\MSL\MSL\Server\config\worldedit\schematics\zhenzhupao.schem (overwriting previous file)
+[288月2024 20:28:08.709] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 20:36:25.432] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 20:36:41.414] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //undo
+[288月2024 20:36:52.735] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 20:37:00.730] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //undo
+[288月2024 20:37:02.984] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 20:38:15.779] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 20:38:55.288] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 20:45:24.741] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //expand up 100
+[288月2024 20:46:44.451] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //expand 100 up
+[288月2024 20:46:48.635] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //cut
+[288月2024 20:47:00.088] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 20:47:16.641] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //cut
+[288月2024 20:47:24.254] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 20:47:33.949] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //undo
+[288月2024 20:47:36.185] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //undo
+[288月2024 20:47:39.061] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //undo
+[288月2024 20:47:46.550] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //undo
+[288月2024 20:48:15.789] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //expand 100 up
+[288月2024 20:48:18.755] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //cut
+[288月2024 20:48:22.315] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 20:48:26.941] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //copy
+[288月2024 20:48:43.582] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //schem save zhenzhupao_plus
+[288月2024 20:48:43.590] [WorldEdit Task Executor - 7/INFO] [com.sk89q.worldedit.command.SchematicCommands/]: StevenYuan saved D:\MC\MSL\MSL\Server\config\worldedit\schematics\zhenzhupao_plus.schem
+[288月2024 20:49:03.842] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 20:51:58.291] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 20:53:58.216] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan moved too quickly! 122.34718062350815,-43.65765444619716,-418.7190939208173
+[288月2024 20:56:25.633] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /forceload query
+[288月2024 20:56:27.853] [Server thread/ERROR] [STDERR/]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[288月2024 20:56:31.349] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3581ms or 71 ticks behind
+[288月2024 20:56:39.143] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /forceload remove all
+[288月2024 20:56:39.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [StevenYuan: Unmarked all force loaded chunks in minecraft:overworld]
+[288月2024 20:57:19.899] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /forceload add -53 28
+[288月2024 20:57:19.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [StevenYuan: Marked chunk [-4, 1] in minecraft:overworld to be force loaded]
+[288月2024 20:58:03.814] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /forceload add -53 28 ~ ~
+[288月2024 20:58:03.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [StevenYuan: Marked [-4, -24] chunks in minecraft:overworld from [-4, -24] to [2, 1] to be force loaded]
+[288月2024 20:59:56.723] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan moved too quickly! 67.56305187648759,2.864929308325344,-325.0777419266982
+[288月2024 21:05:37.413] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan moved too quickly! 129.50869197542087,-14.282718544386057,-443.37513608828874
+[288月2024 21:06:11.614] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //expand 100 up
+[288月2024 21:06:16.414] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //cut
+[288月2024 21:06:21.344] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 21:06:38.981] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //schem save -f zhenzhupao_plus
+[288月2024 21:06:38.994] [WorldEdit Task Executor - 8/INFO] [com.sk89q.worldedit.command.SchematicCommands/]: StevenYuan saved D:\MC\MSL\MSL\Server\config\worldedit\schematics\zhenzhupao_plus.schem (overwriting previous file)
+[288月2024 21:13:09.961] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan moved too quickly! -157.45417700550595,24.57114186899824,-575.6043903888747
+[288月2024 21:15:22.348] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /forceload add 153 66
+[288月2024 21:15:22.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [StevenYuan: Marked chunk [9, 4] in minecraft:overworld to be force loaded]
+[288月2024 21:15:47.957] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan moved too quickly! 147.99243083122872,-70.46915576568637,-437.41012651279163
+[288月2024 21:16:13.845] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /forceload add 153 66 ~ ~
+[288月2024 21:16:13.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [StevenYuan: Marked [3, -23] chunks in minecraft:overworld from [3, -23] to [9, 4] to be force loaded]
+[288月2024 21:17:02.897] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /forceload add 153 66 ~ ~
+[288月2024 21:17:06.804] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /forceload add 153 66 ~ ~
+[288月2024 21:17:35.316] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan moved too quickly! -122.63459200404237,10.809937122192068,-361.00207087003395
+[288月2024 21:17:36.969] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan moved too quickly! 41.0,-2.0,-4.0
+[288月2024 21:17:55.082] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /forceload add 43 -364
+[288月2024 21:18:33.248] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /forceload add 43 -364 ~ ~
+[288月2024 21:18:52.110] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan moved too quickly! -115.36464975253307,-10.407601194707837,-369.85545287343143
+[288月2024 21:19:54.039] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //expand 100 up
+[288月2024 21:20:01.317] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //cut
+[288月2024 21:20:05.409] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 21:20:23.197] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //schem save -f zhenzhupao_plus
+[288月2024 21:20:23.200] [WorldEdit Task Executor - 9/INFO] [com.sk89q.worldedit.command.SchematicCommands/]: StevenYuan saved D:\MC\MSL\MSL\Server\config\worldedit\schematics\zhenzhupao_plus.schem (overwriting previous file)
+[288月2024 21:24:40.034] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /forceload add 43 -364 ~ ~
+[288月2024 21:25:24.368] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan moved too quickly! -55.78015851620546,-35.57307030287771,-506.3967305014927
+[288月2024 21:26:54.487] [Async Chat Thread - #13/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <StevenYuan> [x:183, y:62, z:261, dim:minecraft:overworld]
+[288月2024 21:31:50.427] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan moved too quickly! -144.0731980182154,-4.0,-635.6865306715479
+[288月2024 21:33:40.812] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /forceload remove all
+[288月2024 21:33:40.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [StevenYuan: Unmarked all force loaded chunks in minecraft:overworld]
+[288月2024 21:33:52.361] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /forceload add 43 -364 ~ ~
+[288月2024 21:34:20.290] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /forceload add 43 -364 ~ ~
+[288月2024 21:34:20.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [StevenYuan: Marked [2, -23] chunks in minecraft:overworld from [2, -23] to [8, 3] to be force loaded]
+[288月2024 21:34:53.756] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /tp ~ ~ ~
+[288月2024 21:34:53.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [StevenYuan: Teleported StevenYuan to 130.904069, 84.300439, 62.107002]
+[288月2024 21:35:15.052] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /forceload add 130 62
+[288月2024 21:35:38.015] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /forceload add 130 62 ~ ~
+[288月2024 21:35:38.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [StevenYuan: Marked [8, 4] chunks in minecraft:overworld from [8, 3] to [12, 15] to be force loaded]
+[288月2024 21:39:14.779] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan moved too quickly! -33.6529066914993,-27.153250891144083,-461.77790860074356
+[288月2024 21:41:30.264] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan moved too quickly! -135.76207016212746,-36.02693272120247,-609.8976248359573
+[288月2024 21:42:25.603] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /forceload remove all
+[288月2024 21:42:25.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [StevenYuan: Unmarked all force loaded chunks in minecraft:overworld]
+[288月2024 21:42:45.892] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /forceload add 43 -364 ~ ~
+[288月2024 21:42:45.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [StevenYuan: Marked [2, -23] chunks in minecraft:overworld from [2, -23] to [10, 3] to be force loaded]
+[288月2024 21:42:54.620] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan moved too quickly! -123.73777098467531,7.131856936606695,-396.1760983551575
+[288月2024 21:44:16.328] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /forceload add 162 172
+[288月2024 21:44:16.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [StevenYuan: Marked chunk [10, 10] in minecraft:overworld to be force loaded]
+[288月2024 21:44:38.260] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /forceload add 162 172 ~ ~
+[288月2024 21:44:38.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [StevenYuan: Marked [9, 4] chunks in minecraft:overworld from [9, 2] to [10, 10] to be force loaded]
+[288月2024 21:46:26.633] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan moved too quickly! 141.05426627640065,-31.981965913015898,347.1768100907407
+[288月2024 21:47:10.407] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /forceload add 181 125
+[288月2024 21:47:10.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [StevenYuan: Marked chunk [11, 7] in minecraft:overworld to be force loaded]
+[288月2024 21:47:40.794] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /forceload ~ ~ 181 125
+[288月2024 21:47:45.861] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /forceload add ~ ~ 181 125
+[288月2024 21:47:45.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [StevenYuan: Marked [8, 4] chunks in minecraft:overworld from [8, 0] to [11, 7] to be force loaded]
+[288月2024 21:48:42.437] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /gamemode survival
+[288月2024 21:48:42.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [StevenYuan: Set own game mode to Survival Mode]
+[288月2024 21:49:27.518] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan moved too quickly! 104.44905302045426,-4.0,295.0612643198221
+[288月2024 21:50:00.647] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /tp StevenYuan ~ ~ ~
+[288月2024 21:50:00.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [StevenYuan: Teleported StevenYuan to 275.822331, 80.000000, 120.497981]
+[288月2024 21:50:13.229] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /forceload add 275 120
+[288月2024 21:50:13.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [StevenYuan: Marked chunk [17, 7] in minecraft:overworld to be force loaded]
+[288月2024 21:50:53.631] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /forceload add ~ ~ 275 120
+[288月2024 21:50:53.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [StevenYuan: Marked [12, 4] chunks in minecraft:overworld from [10, 4] to [17, 7] to be force loaded]
+[288月2024 21:50:58.950] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan moved too quickly! -120.49629664500455,-0.9931355636393988,-405.3575043883161
+[288月2024 21:52:02.281] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan moved too quickly! 144.07692112311202,-20.868598561411886,386.30000001192093
+[288月2024 21:52:51.917] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /forceload add ~ ~
+[288月2024 21:53:40.465] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /forceload remove all
+[288月2024 21:53:40.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [StevenYuan: Unmarked all force loaded chunks in minecraft:overworld]
+[288月2024 21:53:50.353] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan moved too quickly! 74.21528656808292,-60.789797348175796,-393.11419537996704
+[288月2024 21:54:28.632] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /forceload add ~ ~
+[288月2024 21:54:28.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [StevenYuan: Marked chunk [14, 8] in minecraft:overworld to be force loaded]
+[288月2024 21:54:43.901] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /forceload add ~ ~
+[288月2024 21:54:43.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [StevenYuan: Marked chunk [-6, -17] in minecraft:overworld to be force loaded]
+[288月2024 21:56:18.111] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan moved too quickly! -195.6697133399682,-2.267059183435947,-473.4711824281785
+[288月2024 21:58:08.410] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 21:59:26.000] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /gamemode creative
+[288月2024 21:59:26.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [StevenYuan: Set own game mode to Creative Mode]
+[288月2024 22:01:38.638] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //expand 100 up
+[288月2024 22:01:51.400] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //cut
+[288月2024 22:01:53.846] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 22:02:11.546] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //schem save -f zhenzhupao_plus
+[288月2024 22:02:11.551] [WorldEdit Task Executor - 10/INFO] [com.sk89q.worldedit.command.SchematicCommands/]: StevenYuan saved D:\MC\MSL\MSL\Server\config\worldedit\schematics\zhenzhupao_plus.schem (overwriting previous file)
+[288月2024 22:02:47.490] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 22:04:45.743] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //cut
+[288月2024 22:04:50.644] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 22:05:13.702] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 22:06:09.989] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //cut
+[288月2024 22:06:13.141] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //paste
+[288月2024 22:06:33.443] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: //schem save -f zhenzhupao_plus
+[288月2024 22:06:33.447] [WorldEdit Task Executor - 11/INFO] [com.sk89q.worldedit.command.SchematicCommands/]: StevenYuan saved D:\MC\MSL\MSL\Server\config\worldedit\schematics\zhenzhupao_plus.schem (overwriting previous file)
+[288月2024 22:07:01.967] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan moved too quickly! 84.37539695325691,-75.29852151692765,-342.88701540698133
+[288月2024 22:08:06.093] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan moved too quickly! -190.04653478608301,-2.885675989756919,-391.7527127057309
+[288月2024 22:10:02.307] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan moved too quickly! -135.0480325063989,-11.881831636949158,-292.02428129940483
+[288月2024 22:10:44.813] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan moved too quickly! -78.8257230627363,-5.83973176106187,-231.6799161202663
+[288月2024 22:12:19.616] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /gamemode survival
+[288月2024 22:12:19.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [StevenYuan: Set own game mode to Survival Mode]
+[288月2024 22:14:52.907] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan moved too quickly! -68.19421012122733,11.0,-162.73058883713819
+[288月2024 22:17:48.631] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /forceload remove all
+[288月2024 22:17:48.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [StevenYuan: Unmarked all force loaded chunks in minecraft:overworld]
+[288月2024 22:18:00.236] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /forceload add 202 -98
+[288月2024 22:18:00.236] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [StevenYuan: Marked chunk [12, -7] in minecraft:overworld to be force loaded]
+[288月2024 22:18:25.006] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan issued server command: /forceload add 202 -98 ~ ~
+[288月2024 22:18:25.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [StevenYuan: Marked [1, -24] chunks in minecraft:overworld from [1, -24] to [12, -7] to be force loaded]
+[288月2024 22:24:29.941] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: StevenYuan lost connection: Disconnected
+[288月2024 22:24:29.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: StevenYuan left the game
+[288月2024 22:24:36.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[288月2024 22:24:36.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[288月2024 22:24:36.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[288月2024 22:24:36.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[288月2024 22:24:37.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[HappyOldFamily]'/minecraft:overworld
+[288月2024 22:24:38.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[HappyOldFamily/DIM-1]'/minecraft:the_nether
+[288月2024 22:24:38.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[HappyOldFamily/DIM1]'/minecraft:the_end
+[288月2024 22:24:38.980] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[288月2024 22:24:43.989] [Exit Thread/INFO] [Arclight/]: 1 threads not shutting down correctly, force exiting

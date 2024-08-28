@@ -1,0 +1,14 @@
+#[付费]上海
+serverAddr = "110.42.36.113"
+serverPort = 7001
+user = "1085320540"
+metadatas.token = "a_-dpLkLoeTkd2BH"
+transport.protocol = "quic"
+
+[[proxies]]
+name = "tcp"
+type = "tcp"
+localIp = "127.0.0.1"
+localPort = 25565
+remotePort = 58942
+transport.useCompression = true
